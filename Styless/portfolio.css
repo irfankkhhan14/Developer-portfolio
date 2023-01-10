@@ -36,9 +36,60 @@ nav ul {
     padding: 18px 35px;
 }
 
-.banner{
+.banner {
     display: flex;
     margin: 50px 100px;
     align-items: center;
     justify-content: space-between;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    background-size: 700px 518px, 90px 500px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*about, section, title*/
+
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    width: 827px;
+    height: 120px;
+    left: 386px;
+    top: 1176px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+    /* Dark 03 */
+
+    color: #757575;
+    margin-bottom: 30px;
+
 }
