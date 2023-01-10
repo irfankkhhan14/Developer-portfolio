@@ -110,3 +110,35 @@ main {
     font-size: 20px;
     color: #474747;
 }
+
+.what-do {
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill {}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.skill-description {
+    
+    width: 201px;
+    height: 196px;
+    left: 845px;
+    top: 2016px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
