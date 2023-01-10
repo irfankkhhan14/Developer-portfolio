@@ -35,3 +35,10 @@ nav ul {
     border: 0;
     padding: 18px 35px;
 }
+
+.banner{
+    display: flex;
+    margin: 50px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
