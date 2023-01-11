@@ -209,6 +209,8 @@ main{
     font-weight: 700;
     font-size: 20px;
     border: 0;
+    margin-top: 30px;
+    margin-bottom: 45px;
     padding: 18px 35px;
 }
 
@@ -217,12 +219,21 @@ main{
     display: flex;
     justify-content: space-around;
     background: #FFF8F3;
+    max-width: 1500px;
     position: absolute;
-    width: 1400px;
-    height: 780px;
+    width: 1600px;
+    height: 100px;
     left: 0px;
     top: 3476px;
 }
+
+/*.contact{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}*/
 
 .contact ,input ,textarea{
     border: 0;
