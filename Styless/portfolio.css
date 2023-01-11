@@ -59,10 +59,12 @@ nav ul {
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    background-size: 1600px 518px, 90px 500px;
+    /*background-size: 1600px 518px, 90px 500px;*/
+    padding: 10px 35px 0px 35px;
+    background-size: 850px 550px, 90px 500px;
 }
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -123,7 +125,7 @@ main{
 }
 
 .what-do {
-    
+
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
@@ -214,7 +216,7 @@ main{
     padding: 18px 35px;
 }
 
-.contact {
+/*.contact {
     margin-top: 10px;
     display: flex;
     justify-content: space-around;
@@ -225,21 +227,28 @@ main{
     height: 100px;
     left: 0px;
     top: 3476px;
-}
-
-/*.contact{
+}*/
+.contact {
     margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 130px 50px;
     text-align: center;
-}*/
+    display: flex;
+    justify-content: space-around;
+}
 
-.contact ,input ,textarea{
+.connect-link{
+    text-align: left;
+}
+
+.contact,
+input,
+textarea {
     border: 0;
 }
 
-.btn-submit{
+.btn-submit {
     background: #FD6E0A;
     border-radius: 5px;
     color: white;
