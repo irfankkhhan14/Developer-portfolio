@@ -42,7 +42,6 @@ nav ul {
     border-color: #FD6E0A;
     color: #FD6E0A;
     background-color: #FFF8F3;
-    ;
     font-weight: 700;
     font-size: 20px;
     padding: 18px 35px;
@@ -60,10 +59,10 @@ nav ul {
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
-    background-size: 700px 518px, 90px 500px;
+    background-size: 1600px 518px, 90px 500px;
 }
 
-main {
+main{
     max-width: 1140px;
     margin: 0 auto;
 }
